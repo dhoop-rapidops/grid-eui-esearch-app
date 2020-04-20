@@ -1,0 +1,14 @@
+@import "../node_modules/ag-grid-community/src/styles/ag-grid.scss";
+@import "../node_modules/ag-grid-community/src/styles/ag-theme-balham/sass/ag-theme-balham-mixin.scss";
+
+.ag-theme-balham {
+  @include ag-theme-balham((
+        header-background-color: #a6b1e1,
+        row-hover-color: #eee,
+        borders: false,
+        borders-critical: true,
+        font-size: 14px    
+    ));
+
+}
+
